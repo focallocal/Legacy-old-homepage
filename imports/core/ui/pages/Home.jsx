@@ -1,37 +1,25 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
-import { coreActions } from '/imports/core';
+import { Header } from '../components/Header';
+import { Top } from '../components/Top';
+import { About } from '../components/About';
+import { Adventures } from '../components/Adventures';
+import { Mission } from '../components/Mission';
+import { MoreLinks } from '../components/MoreLinks';
+import { Footer } from '../components/Footer';
 
-class HomeComponent extends PureComponent {
+export class Home extends PureComponent {
   render() {
-    const {
-      core: {
-        clickCount,
-      },
-      incrementClickCount,
-    } = this.props;
     return (
       <div id="home">
-        <h2>Hello world!</h2>
-        <p>You clicked <strong>{clickCount}</strong> times</p>
-        <button onClick={incrementClickCount}>Click me!</button>
+        <Header />
+        <Top />
+        <About />
+        <Adventures />
+        <Mission />
+        <MoreLinks />
+        <Footer />
       </div>
     );
   }
 }
-
-const mapStateToProps = state => {
-  return {
-    core: state.core.toJS(),
-  };
-};
-
-const mapDispatchToProps = dispatch =>
-  bindActionCreators(coreActions, dispatch);
-
-export const Home = connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(HomeComponent);
