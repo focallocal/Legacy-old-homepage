@@ -11,7 +11,10 @@ export class Mission extends PureComponent {
               <iframe width="100%" height="315" src="https://www.youtube.com/embed/WUppGn2Z4b4?list=PLzwMXFvS_OYMIrrdyP1ASjmD3uz9NqC9p" frameBorder="0" allowFullScreen />
             </div>
             <div className="text-cont">
-              <p>It’s time to stop waiting and realise that we all have the power to solve ALL of society's problems ourselves by coming together and using positive and innovative tools that target the roots causes of those issues. Each action may only feel like a tiny ripple, but together as a movement all around the world these ripples combine, growing into an unstoppable wave of positive change! Focallocal is about empowering people, because together we can make a happier and safer future for everyone. The movement has already begun, and being a part of it is easy and a whole lot of fun! </p>
+              <p>Times are changing, and so can your feeling of powerless at the problems in the world</p><p>
+              <p>We all have the power to solve ALL of the world's problems ourselves by coming together and using positive and innovative tools to target their roots causes</p>
+              <p>Each action may feel like a tiny ripple. As the Positve Action Movement sweeps around the world these ripples, will combine into an unstoppable wave of positive change!</p>
+              <p>Focallocal is about empowering people, because the time for waiting for others to do it is over! That future will come if we all do a little, every day!</p>
             </div>
           </div>
         </div>
