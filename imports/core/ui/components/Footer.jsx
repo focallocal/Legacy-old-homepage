@@ -13,9 +13,8 @@ export class Footer extends PureComponent {
             <div>
               <h4>Sitemap</h4>
               <ul>
-                <li><a href="/link">Link</a></li>
-                <li><a href="/link">Link</a></li>
-                <li><a href="/link">Link</a></li>
+                <li><a href="http://brightertomorrowmap.com/">Brighter Tomorrow Map</a></li>
+                <li><a href="http://gather.focallocal.org/events/map">Events Map</a></li>
               </ul>
             </div>
             <div>

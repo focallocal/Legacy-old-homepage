@@ -8,7 +8,7 @@ import { Mission } from '../components/Mission';
 import { MoreLinks } from '../components/MoreLinks';
 import { Footer } from '../components/Footer';
 
-export class Home extends PureComponent {
+export default class Home extends PureComponent {
   render() {
     return (
       <div id="home">

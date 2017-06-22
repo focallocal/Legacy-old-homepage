@@ -19,7 +19,6 @@ export class Header extends PureComponent {
         !this.state.headerFixed
       ) {
         this.setState({ headerFixed: true });
-        console.log('setFixed');
       } else if (
         document.body.scrollTop === 0
       ) {
@@ -54,12 +53,12 @@ export class Header extends PureComponent {
           </a>
           <nav className={this.state.menuOpened ? '_opened' : ''}>
             <ul>
-              <li><a href="" className="_active">About us</a></li>
-              <li><a href="">Happy news</a></li>
-              <li><a href="">Action center</a></li>
-              <li><a href="">Map</a></li>
-              <li><a href="">Projects</a></li>
-              <li><a href="">Shop</a></li>
+              <li><a href="#" className="_active">About us</a></li>
+              <li><a href="http://news.focallocal.org/">Happy news</a></li>
+              <li><a href="http://news.focallocal.org/">Action center</a></li>
+              <li><a href="http://gather.focallocal.org">Map</a></li>
+              <li><a href="http://brightertomorrowmap.com/">Projects</a></li>
+              <li><a href="https://the-positive-action-shop.myshopify.com/">Shop</a></li>
             </ul>
             <button
               onClick={this.toggleOpened}
