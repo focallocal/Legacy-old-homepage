@@ -22,13 +22,17 @@
     height: 100vh;
   }
   .buttons {
-    button {
+    button, .btn {
       background: $brand-primary;
       color: white;
       font-size: 30px;
       margin: 10px;
       width: 250px;
       padding: 10px;
+    }
+
+    .btn {
+      display: inline-block;
     }
   }
   .logo {

@@ -12,8 +12,8 @@ export class Top extends PureComponent {
               {/*<p>Your mission starts now</p>*/}
             {/*</div>*/}
             <div className="buttons">
-              <button>Use your skills</button>
-              <button>Meet locals</button>
+              <a className="btn" href="http://action.focallocal.org/fl-actioncenter/">Use your skills</a>
+              <a className="btn" href="http://gather.focallocal.org/events/map">Meet locals</a>
             </div>
           </div>
         </div>

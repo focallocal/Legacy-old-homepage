@@ -31,7 +31,7 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='file'],
-input[type='submit'] {
+input[type='submit'], .btn {
   background-color: transparent;
   -webkit-appearance: none;
   border: 1px solid $brand-primary;
