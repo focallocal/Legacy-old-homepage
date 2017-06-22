@@ -13,20 +13,19 @@ export class About extends PureComponent {
             <div className="item">
               <div className="icon smiley" />
               <h4>make the world ‘happier’ every day</h4>
-            </div>
-            <div className="container">
-              <p>
-                <span>Join us and turn Positive Action into a daily habit to explore your power to change the world, and the happiness it'll bring into your life</span>
-              </p>
-            </div>
+            </div>            
             <div className="item">
               <div className="icon friends" />
               <h4>make ‘positive’ friends all over the world</h4>
             </div>
             <div className="item">
               <div className="icon share" />
-              <h4>share/learn skills to target local issues</h4>
+              <h4>share or learn skills to </h4>
             </div>
+          </div>
+               <p>
+                <span>Join us and turn Positive Action into a daily habit to explore your power to change the world, and the happiness it'll bring into your life</span>
+              </p>
           </div>
         </div>
       </section>
