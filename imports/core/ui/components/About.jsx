@@ -7,13 +7,7 @@ export class About extends PureComponent {
         <div className="container">
           <h2>What is Focallocal?</h2>
           <p>
-            <span>Focallocal is an open, welcoming community of thousands of positive people around the world</span>
-          </p>
-          <p>
-            <span>Since 2011 we have been coming together and targeting the root causes of any, and all societal issues</span>
-          </p>
-          <p>
-            <span>Sharing ideas, and using fun activities to empower people to build a friendlier, happier more connected future for everyone</span>
+            <span>Focallocal is an open, welcoming community of thousands of positive people around the world<br />Since 2011 we have been coming together and targeting the root causes of any, and all societal issues<br />Sharing ideas, and using fun activities to empower people to build a friendlier, happier more connected future for everyone</span>
           </p>
           <div className="items">
             <div className="item">
