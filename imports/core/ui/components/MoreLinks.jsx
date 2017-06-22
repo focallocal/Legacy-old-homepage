@@ -9,13 +9,13 @@ export class MoreLinks extends PureComponent {
           <p>Here's more actions to explore</p>
           <div className="buttons">
             <div className="item">
-              <button>Watch + Share Videos</button>
+              <a href="https://www.youtube.com/user/Focallocal" className="btn">Watch + Share Videos</a>
             </div>
             <div className="item">
-              <button>Write + Read articles</button>
+              <a href="https://www.facebook.com/groups/focallocal/" className="btn">Write + Read articles</a>
             </div>
             <div className="item">
-              <button>Find + Get actions tools</button>
+              <a href="https://the-positive-action-shop.myshopify.com/" className="btn">Find + Get actions tools</a>
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@
     @include flexbox;
     @media screen and (max-width: 980px) {
       @include flex-direction(column);
-      button {
+      button, .btn {
         width: 80vw;
         margin-bottom: 10px;
       }
@@ -46,11 +46,14 @@
     .item {
       @include flex-grow(1);
       text-align: center;
-      button {
+      button, .btn {
         background: $brand-primary;
         color: white;
         font-size: 24px;
         margin: 10px;
+      }
+      .btn {
+        display: block;
       }
     }
   }

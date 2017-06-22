@@ -20,13 +20,10 @@ export class Footer extends PureComponent {
             <div>
               <h4>Connect</h4>
               <div className="social-links">
-                <a href="" className="social-link facebook">
+                <a href="https://www.facebook.com/groups/focallocal" className="social-link facebook">
                   <i className="fa fa-facebook" />
                 </a>
-                <a href="" className="social-link twitter">
-                  <i className="fa fa-twitter" />
-                </a>
-                <a href="" className="social-link youtube">
+                <a href="https://www.youtube.com/user/Focallocal/" className="social-link youtube">
                   <i className="fa fa-youtube" />
                 </a>
               </div>
