@@ -15,15 +15,15 @@ $red: rgb(248, 72, 81);
 $yellow: rgb(208, 201, 23);
 $green: rgb(70, 208, 95);
 
-$brand-primary: ##f57c00;
+$brand-primary: #f57c00;
 $brand-secondary: rgba(96, 101, 165, 0.91);
 
-$base-font-proxima-nova: 'Proxima Nova', 'Helvetica Neue', 'Helvetica', sans-serif;
-$base-font-proxima-nova: 'Proxima Nova', 'Baskerville', 'Georgia', serif;
+$base-font-sans-serif: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$base-font-serif: 'Times', 'Baskerville', 'Georgia', serif;
 
-$font-family-text: $base-font-proxima-nova;
-$font-family-header: $base-font-roboto;
-$font-family-accent: $base-font-proxima-nova-soft;
+$font-family-text: $base-font-sans-serif;
+$font-family-header: $base-font-sans-serif;
+$font-family-accent: $base-font-serif;
 
 $screen-xs:                  480px !default;
 $screen-xs-min:              $screen-xs !default;
