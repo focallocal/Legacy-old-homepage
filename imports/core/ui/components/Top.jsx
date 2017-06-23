@@ -12,10 +12,10 @@ export class Top extends PureComponent {
               {/*<p>Your mission starts now</p>*/}
             {/*</div>*/}
             <div className="buttons">
-              <a className="btn" href="http://action.focallocal.org/fl-actioncenter/">Build Projects</a>
+              <a className="btn height-fix" href="http://action.focallocal.org/fl-actioncenter/">Build Projects</a>
               <a className="btn" href="http://gather.focallocal.org/events/map">Meet Focallocallers</a>
-              <h4>Local Action for Global Change</h4>
             </div>
+            <h4>Local Action for Global Change</h4>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ $base-font-sans-serif: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
 $base-font-serif: 'Times', 'Baskerville', 'Georgia', serif;
 
 $font-family-text: $base-font-sans-serif;
-$font-family-header: $base-font-sans-serif; 
+$font-family-header: $base-font-sans-serif;
 $font-family-accent: $base-font-serif;
 
 $screen-xs:                  480px !default;
@@ -49,7 +49,7 @@ $base-text-color: $gray-darker !default;
 $base-background-color: $gray-lighter !default;
 $font-size-base: 20px !default;
 $line-height-base: 1.2 !default;
-$base-font-family: $base-font-sans-serif; !default;
+$base-font-family: $base-font-sans-serif !default;
 $base-font-weight: 300 !default;
 $base-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
 

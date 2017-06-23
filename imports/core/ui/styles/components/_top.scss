@@ -21,7 +21,18 @@
     z-index: 2;
     height: 100vh;
   }
-  .buttons {
+  .buttons, .align-center-flex {
+
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
     button, .btn {
       background: $brand-primary;
       color: white;
@@ -32,7 +43,11 @@
     }
 
     .btn {
-      display: inline-block;
+      display: block;
+    }
+
+    .height-fix {
+      line-height: 60px;
     }
   }
   .logo {

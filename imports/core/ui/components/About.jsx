@@ -6,14 +6,22 @@ export class About extends PureComponent {
       <section id="about" className="content-section">
         <div className="container">
           <h2>What is Focallocal?</h2>
-          <p>
-            <span>Focallocal is an open, welcoming community of thousands of positive people around the world<br />Since 2011 we have been coming together and targeting the root causes of any, and all societal issues<br />Sharing ideas, and using fun activities to empower people to build a friendlier, happier more connected future for everyone</span>
-          </p>
+          <div>
+            <p>
+              Focallocal is an open, welcoming community of thousands of positive people around the world.
+            </p>
+            <p>
+              Since 2011 we have been coming together and targeting the root causes of any, and all societal issues.
+            </p>
+            <p>
+              Sharing ideas, and using fun activities to empower people to build a friendlier, happier more connected future for everyone.
+            </p>
+          </div>
           <div className="items">
             <div className="item">
               <div className="icon smiley" />
               <h4>make the world ‘happier’ every day</h4>
-            </div>            
+            </div>
             <div className="item">
               <div className="icon friends" />
               <h4>make ‘positive’ friends all over the world</h4>
@@ -26,7 +34,6 @@ export class About extends PureComponent {
                <p>
                 <span>Join us and turn Positive Action into a daily habit to explore your power to change the world, and the happiness it'll bring into your life</span>
               </p>
-          </div>
         </div>
       </section>
     );
