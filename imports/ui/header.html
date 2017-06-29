@@ -1,0 +1,23 @@
+<template name="header">
+  <header id="header" class="{{#if headerFixed}}_fixed{{/if}}">
+    <div class="container">
+      <button class="toggle-menu" >
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="logo">
+        <img src="/images/logo_text.png" alt="logo">
+      </a>
+      <nav class="{{#if menuOpened}}_opened{{/if}}">
+        <ul>
+          <li><a href="#" class="_active">About us</a></li>
+          <li><a href="http://news.focallocal.org/">Happy news</a></li>
+          <li><a href="http://news.focallocal.org/">Action center</a></li>
+          <li><a href="http://gather.focallocal.org">Map</a></li>
+          <li><a href="http://brightertomorrowmap.com/">Projects</a></li>
+          <li><a href="https://the-positive-action-shop.myshopify.com/">Shop</a></li>
+        </ul>
+        <button class="toggle-menu"><i class="fa fa-times"></i></button>
+      </nav>
+    </div>
+  </header>
+</template>

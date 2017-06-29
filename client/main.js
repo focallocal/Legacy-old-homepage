@@ -1,1 +1,1 @@
-import '/imports/core/startup/client/index.jsx';
+import '/imports/ui/home';

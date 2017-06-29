@@ -6,10 +6,6 @@
   },
   "dependencies": {
     "jquery": "^3.2.1",
-    "meteor-node-stubs": "~0.2.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scroll": "^1.5.3",
-    "rext": "0.0.6"
+    "meteor-node-stubs": "~0.2.0"
   }
 }
